@@ -1,3 +1,15 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #22080d,
+    #390910,
+    #50040d,
+    #660000
+  );
+  color: #fff;
+}
+
 .main-layout {
   display: flex;
   flex-direction: column;
@@ -16,4 +28,12 @@
 
 .w100 {
   width: 100%;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-middle {
+  align-items: center;
 }
